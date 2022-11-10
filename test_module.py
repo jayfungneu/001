@@ -2,7 +2,7 @@ import unittest
 from arithmetic_arranger import arithmetic_arranger
 
 
-# the test case
+
 class UnitTests(unittest.TestCase):
     def test_arrangement(self):
         actual = arithmetic_arranger(["3 + 855", "3801 - 2", "45 + 43", "123 + 49"])
@@ -40,17 +40,3 @@ class UnitTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
